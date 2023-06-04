@@ -1,0 +1,25 @@
+political_decisions = { 
+    erase_selectors = {
+        picture = "province_selector_delete"
+        potential = { ai = no }
+        allow = { }
+        effect = { any_owned = { prov_selector = -2 } }
+        ai_will_do = { factor = 0 }
+    }
+
+    erase_selectors_world = {
+        picture = "province_selector_delete_global"
+        potential = { ai = no }
+        allow = { }
+        effect = { any_country = { any_owned = { prov_selector = -2 } } }
+        ai_will_do = { factor = 0 }
+    }
+
+    rgo_change = {
+        picture = "rgo_change"
+        potential = { ai = no }
+        allow = { }
+        effect = { country_event = 1000 }
+        ai_will_do = { factor = 0 }
+    }
+}

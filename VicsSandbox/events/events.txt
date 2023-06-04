@@ -1,0 +1,224 @@
+country_event = {
+
+    id = 1000
+    title = "RGO Change"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Nevermind"
+    }
+    option = {
+        name = "Change into Grain"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = grain
+        }
+    }
+    option = {
+        name = "Change into Fruit"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = fruit
+        }
+    }
+    option = {
+        name = "Change into Cattle"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = cattle
+        }
+    }
+    option = {
+        name = "Next Page"
+        country_event = 1001
+    }
+   
+}
+
+country_event = {
+
+    id = 1001
+    title = "RGO Change, second page"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Previous Page"
+        country_event = 1000
+    }
+    option = {
+        name = "Change into Fish"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = fish
+        }
+    }
+    option = {
+        name = "Change into Timber"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = timber
+        }
+    }
+    option = {
+        name = "Change into Coal"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = coal
+        }
+    }
+    option = {
+        name = "Next Page"
+        country_event = 1002
+    }
+   
+}
+
+country_event = {
+
+    id = 1002
+    title = "RGO Change, third page"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Previous Page"
+        country_event = 1001
+    }
+    option = {
+        name = "Change into Iron"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = iron
+        }
+    }
+    option = {
+        name = "Change into Cotton"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = cotton
+        }
+    }
+    option = {
+        name = "Change into Tea"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = tea
+        }
+    }
+    option = {
+        name = "Next Page"
+        country_event = 1003
+    }
+}
+
+country_event = {
+
+    id = 1003
+    title = "RGO Change, forth page"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Previous Page"
+        country_event = 1002
+    }
+    option = {
+        name = "Change into Coffe"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = coffe
+        }
+    }
+    option = {
+        name = "Change into Tropical Wood"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = tropical_wood
+        }
+    }
+    option = {
+        name = "Change into Tobacco"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = tobacco
+        }
+    }
+    option = {
+        name = "Next Page"
+        country_event = 1004    
+    }
+}
+
+country_event = {
+
+    id = 1004
+    title = "RGO Change, sixth page"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Previous Page"
+        country_event = 1003
+    }
+    option = {
+        name = "Change into Sulphur"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = sulphur
+        }
+    }
+    option = {
+        name = "Change into Silk"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = silk
+        }
+    }
+    option = {
+        name = "Change into Opium"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = opium
+        }
+    }
+    option = {
+        name = "Next Page"
+        event = 1005 
+    }
+}
+
+country_event = {
+
+    id = 1005
+    title = "RGO Change, last page"
+    desc = "This will change all selected provinces RGOs into the selected ones. Which one it will be?"
+    picture = "farming"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Previous Page"
+        country_event = 1004
+    }
+        option = {
+        name = "Change into Dye"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = dye
+        }
+    }
+    option = {
+        name = "Change into Precious Metals"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = precious_meta
+        }
+    }
+    option = {
+        name = "Change into Oil"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = opium
+        }
+    }
+    option = {
+        name = "Change into Rubber"
+        any_owned = { limit = { has_building = prov_selector } 
+                               trade_goods = rubber
+        }
+    }
+}

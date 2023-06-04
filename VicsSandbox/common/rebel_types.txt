@@ -1261,7 +1261,7 @@ pan_nationalist_rebels = {
 					cultural_union = { exists = yes }
 				}
 			}
-			country_event = { id=11100 days=0 }
+			#country_event = { id=11100 days=0 }
 		}
 	}
 }
@@ -1644,7 +1644,7 @@ boxer_rebels = {
 			limit = {
 				is_greater_power = yes
 			}
-			country_event = { id=13356 days=0 }
+			#country_event = { id=13356 days=0 }
 		}
 	}
 
@@ -1658,7 +1658,7 @@ boxer_rebels = {
 	
 	demands_enforced_effect = {
 		any_greater_power = {
-			country_event = { id=13356 days=0 }
+			#country_event = { id=13356 days=0 }
 		}
 	}
 }
@@ -1900,7 +1900,7 @@ red_shirts = {
 					has_country_flag = does_not_want_to_be_unified
 				}
 			}
-			country_event = { id=11103 days=0 }
+			#country_event = { id=11103 days=0 }
 		}
 	}
 }

@@ -1,1 +1,8 @@
 prov_selector;Province Selector;;;;;;;;;;;;;x;
+selector_invention;Province Selector Invention;;;;;;;;;;;;;x;
+erase_selectors_title;Erase Province Selectors;;;;;;;;;;;;;x;
+erase_selectors_desc;Erase any placed province selector under your current tag.;;;;;;;;;;;;;x;
+erase_selectors_world_title;Erase Province Globally;;;;;;;;;;;;;x;
+erase_selectors_world_desc;Erase any placed province selectors globally.;;;;;;;;;;;;;x;
+rgo_change_title;Change RGOs;;;;;;;;;;;;;x;
+rgo_change_desc;Change RGOs of selected provinces.;;;;;;;;;;;;;x;
